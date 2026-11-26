@@ -1,0 +1,19 @@
+{
+  "name": "cc-history",
+  "version": "0.1.0",
+  "description": "Browse, search and cost-account your local Claude Code session history.",
+  "bin": {
+    "cchistory": "bin/cchistory.js"
+  },
+  "main": "src/scan.js",
+  "scripts": {
+    "build": "node bin/cchistory.js",
+    "stats": "node bin/cchistory.js --stats",
+    "serve": "node bin/cchistory.js --serve"
+  },
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
